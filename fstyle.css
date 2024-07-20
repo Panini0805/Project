@@ -1,0 +1,104 @@
+#f_description{
+    text-align: center;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: 5px;
+}
+body{
+    color: white;
+    background-color: black;
+}
+.head_container {
+    background-color: black;
+    border: 2px solid blue;
+    box-shadow: 0px 5px 5px hsla(240, 100%, 50%, 0.345);
+    border-radius: 12px;
+    width: 800px;
+    margin-left: 22.4%;
+    margin-right: auto;
+    height: 160px;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+#d_description{
+    margin-bottom: 0px;
+    margin-top: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+h1{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+p{
+    margin-right: 29%;
+    margin-left: 29%;
+}
+.insights{
+    margin-right: 29%;
+    margin-left: 29%;
+    margin-top: 6px;
+}
+.d_insights{
+    margin-left: 29%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.home_button{
+    margin-left: 46%;
+    color: rgb(180, 180, 180);
+    width: 120px;
+    height: 40px;
+    background-color: hsl(0, 0%, 12%);
+    border: 1px solid black;
+    border-radius: 13px;
+}
+.home_button:hover{
+    background-color: hsl(0, 0%, 10%);
+    height: 45px;
+    width: 135px;
+    margin-left: 45.6%;
+    font-size: 15px;
+}
+
+.f1000_graphs{
+    height: 450px;
+    width: 650px;
+    margin-right: 27.5%;
+    margin-left: 27.5%;
+    display: visible;
+}
+.dropdown{
+    margin-right: 33%;
+    margin-left: 33%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(180, 180, 180);
+    width: 500px;
+    height: 40px;
+    background-color: hsl(0, 0%, 12%);
+    border: 1px solid black;
+    border-radius: 13px;
+    font-size: 13px
+}
+.dropdown:hover{
+    background-color: hsl(0, 0%, 10%);
+    height: 45px;
+    width: 515px;
+    margin-left: 32.3%;
+    font-size: 14px;
+}
+#hide_show1{
+    display: none;
+}
+#hide_show2{
+    display: none;
+}
+#hide_show3{
+    display: none;
+}
+#hide_show4{
+    display: none;
+}

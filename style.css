@@ -1,0 +1,67 @@
+header{
+    color: white;
+}
+main{
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+h4{
+    font-size: 20px;
+}
+.navbar{
+    overflow: hidden;  
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    padding: 15px;
+    margin: 0px
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 25%);
+}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 35%);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+    max-width: 700px;
+}
+li{
+    display: inline-block;
+}
+#fortune_image{
+    height: 250px;
+    margin-left: 25%;
+    margin-right: 15px;
+    float: left;
+}
+#movie_image{
+    height: 200px;
+    margin-right: 25%;
+    margin-left: 15px;
+    float: right;
+}
+#fortune_home{
+    display: flow-root;
+}
+#movie_home{
+    display: flow-root;
+}
+.home_text{
+    margin-left: 26%;
+    margin-right: 26%;
+}
+
+
+
+body{
+    background-color: black;
+}

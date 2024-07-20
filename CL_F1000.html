@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune 1000 Companies Dataset Analysis</title>
+    <link rel="stylesheet" href="fstyle.css">
+    <link rel="icon" type="image/png" href="Images/data_science_logo.png">
+</head>
+<body>
+    <div class="head_container">
+        <h1 align="center">Fortune 1000 Companies Analysis</h1>
+        <h3 id="d_description" align="center">Dataset Description:</h3>
+        <p id="f_description">Represented the Fortune 1000 companies in 2018 (Fortune's list of the 1000 largest US companies by revenues), as well as specific information about them, such as their revenues, profits, employees, sector, and even CEO for that year!</p>    
+    </div>
+
+    <br><br>
+    <button onClick="show_or_hide1()", class="dropdown">Effect of Number of Company Employees on Number Amount of Profits</button>
+    <div id="hide_show1">
+        <iframe class="f1000_graphs" src="Images/employee_revenues.html"></iframe>
+        <h3 class="d_insights">Insights:</h3>
+        <p class="insights">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, rerum commodi. Aperiam tenetur assumenda eaque deserunt quae nobis exercitationem sed, ab iure? Nihil itaque nostrum eius ipsa omnis delectus dicta!</p>
+    </div>
+
+    <button onClick="show_or_hide2()", class="dropdown">Effect of Company Sector on Employee Count</button>
+    <div id="hide_show2">
+        <iframe class="f1000_graphs" src="Images/sector_employees.html"></iframe>
+        <h3 class="d_insights">Insights:</h3>
+        <p class="insights">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, rerum commodi. Aperiam tenetur assumenda eaque deserunt quae nobis exercitationem sed, ab iure? Nihil itaque nostrum eius ipsa omnis delectus dicta!</p>
+    </div>
+
+    <button onClick="show_or_hide3()", class="dropdown">Effect of Company Sector on Company Revenues</button>
+    <div id="hide_show3">
+        <iframe class="f1000_graphs" src="Images/sector_revenues.html"></iframe>
+        <h3 class="d_insights">Insights:</h3>
+        <p class="insights">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, rerum commodi. Aperiam tenetur assumenda eaque deserunt quae nobis exercitationem sed, ab iure? Nihil itaque nostrum eius ipsa omnis delectus dicta!</p>
+    </div>
+
+    <button onClick="show_or_hide4()", class="dropdown">Effect of Company Sector on Company Profits</button>
+    <div id="hide_show4">
+        <iframe class="f1000_graphs" src="Images/sector_profits.html"></iframe>
+        <h3 class="d_insights">Insights:</h3>
+        <p class="insights">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, rerum commodi. Aperiam tenetur assumenda eaque deserunt quae nobis exercitationem sed, ab iure? Nihil itaque nostrum eius ipsa omnis delectus dicta!</p>
+    </div>
+
+    <a href="CL_Home.html"><button class="home_button">Home Page</button></a>
+    <script src="hide_show.js"></script>
+</body>
+</html>
